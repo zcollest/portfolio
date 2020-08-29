@@ -1,0 +1,43 @@
+<!-- Photos -->
+<article id="photos" class="panel">
+    <header>
+        <h2>photos</h2>
+    </header>
+        <p> a glimpse into some of my favorite travel memories. <br> click the photos to expand. </p>
+        <div class="row">
+            <div class="column">
+                <a class="image fit"><img src="images/prague.jpg" width="400" height="150" alt="prague, czech republic" onclick="myFunction(this);"></a>
+            </div>
+            <div class="column">
+                <a class="image fit"><img src="images/louise.jpg" width="400" height="150" alt="lake louise, british columbia, canada" onclick="myFunction(this);"></a>
+            </div>
+            <div class="column">
+                <a class="image fit"><img src="images/acadia.jpg" width="400" height="150" alt="acadia national park, maine, usa" onclick="myFunction(this);"></a>
+            </div>
+            <div class="column">
+                <a class="image fit"><img src="images/granada.jpg" width="400" height="150" alt="granada, spain" onclick="myFunction(this);"></a>
+            </div>
+            <div class="column">
+                <a class="image fit"><img src="images/joshtree.jpg"  width="400" height="150" alt="joshua tree national park, california, usa" onclick="myFunction(this);"></a>
+            </div>
+            <div class="column">
+                <a class="image fit"><img src="images/coast.jpg"  width="400" height="150" alt="praia de ursa, portugal" onclick="myFunction(this);"></a>
+            </div>
+            <div class="column">
+                <a class="image fit"><img src="images/abikso1.jpeg"  width="400" height="150" alt="abisko national park, sweden" onclick="myFunction(this);"></a>
+            </div>
+            <div class="column">
+                <a class="image fit"><img src="images/alhombra.jpg"  width="400" height="150" alt="granada, spain" onclick="myFunction(this);"></a>
+            </div>
+          </div>
+
+          <!-- The expanding image container -->
+          <div class="container">
+            <!-- Close the image -->
+            <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
+            <!-- Expanded image -->
+            <img id="expandedImg" style="width:100%">
+            <!-- Image text -->
+            <div id="imgtext"></div>
+          </div>
+</article>
