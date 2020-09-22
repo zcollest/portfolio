@@ -1,3 +1,0 @@
-# zach collester portfolio website 
-
-a work in progress...
